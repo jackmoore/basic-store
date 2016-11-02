@@ -1,0 +1,18 @@
+{
+  "name": "basic-store",
+  "version": "1.0.0",
+  "description": "A really basic reactive state implementation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jackmoore/basic-store.git"
+  },
+  "homepage": "https://github.com/jackmoore/basic-store",
+  "keywords": [
+    "state",
+    "functional",
+    "immutable"
+  ],
+  "author": "jacklmoore",
+  "license": "MIT"
+}
