@@ -29,7 +29,7 @@ function store(state) {
 		setState: function(newState) {
 			var prevState = state;
 
-			state = assign({}, state, newState);
+			state = assign({}, prevState, typeof newState === 'function' ? newState(prevState) : newState);
 
 			for (var i = 0; i < listeners.length; i++) {
 				listeners[i](state, prevState);

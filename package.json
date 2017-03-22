@@ -1,6 +1,6 @@
 {
   "name": "basic-store",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A really basic reactive state implementation",
   "main": "index.js",
   "repository": {
