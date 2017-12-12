@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Use [unistore](https://github.com/developit/unistore) instead, it's extremely similar but better documented and vetted.  I will continue using basic-store for my own purposes because I like each the previousState being supplied to subscribers.
+
 # Basic Store
 
 A really basic reactive state implementation.
